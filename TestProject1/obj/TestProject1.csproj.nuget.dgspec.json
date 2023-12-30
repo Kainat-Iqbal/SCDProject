@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\demoProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\demoProject.csproj",
+        "projectName": "demoProject",
+        "projectPath": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\demoProject.csproj",
+        "packagesPath": "C:\\Users\\Kainat Iqbal\\.nuget\\packages\\",
+        "outputPath": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kainat Iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.16.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Kainat Iqbal\\.nuget\\packages\\",
+        "outputPath": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kainat Iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\demoProject.csproj": {
+                "projectPath": "F:\\Sixth semester\\Software construction LAB\\LAB WORK ON VISUAL\\demoProject\\demoProject\\demoProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.16.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
